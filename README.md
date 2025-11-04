@@ -1,0 +1,2 @@
+# Method-of-feasible-directions-with-Hit-and-Run-sampling-for-multi-objective-optimization.
+This program solves linearly constrained multi-objective optimization problems through three approaches: the MFD by Ramdani_et_al, the MFD by Morovati and Pourkarimi, and NSGA-II , evaluates Pareto fronts via metrics including Hypervolume, Spread, , Purity,. Outcomes are illustrated with 2D/3D plots of Pareto fronts and efficient sets.
