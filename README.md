@@ -1,0 +1,2 @@
+# Method-of-feasible-directions-with-Hit-and-Run-sampling-for-multi-objective-optimization.
+This Function solves linearly constrained multi-objective optimization problems of the form Min F(x) =[f1(x),f2(x),...fp(x)] subject to   A x \leq b, and LB≤ x≤  UB Using Hit-and-Run sampling. Required MPT3 Toolbox, Outcomes are illustrated with 2D/3D plots of Pareto fronts and efficient sets,test Problems are numbered consecutively from 1 to 27.
