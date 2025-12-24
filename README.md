@@ -21,15 +21,8 @@ subject to \( Ax \leq b \), \( LB \leq x \leq UB \).
 - No additional toolboxes required beyond standard MATLAB Optimization Toolbox for `quadprog`.
 
 ## Installation
-1. Clone this repository:
-   ```
-   git clone https://github.com/your-username/your-repo-name.git
-   ```
-2. Add the repository folder to your MATLAB path:
-   ```matlab
-   addpath('/path/to/your-repo-name');
-   ```
-3. Install MPT3 Toolbox if not already done:
+
+ Install MPT3 Toolbox if not already done:
    - Follow instructions on the MPT3 website.
    - Ensure it's on your MATLAB path.
 
@@ -37,10 +30,7 @@ subject to \( Ax \leq b \), \( LB \leq x \leq UB \).
 Run the main function `MFD_For_MOOP_Ramdani_et_al` in MATLAB. It prompts for a problem index (1-27) and solves the selected test problem.
 
 ### Example
-```matlab
-MFD_For_MOOP_Ramdani_et_al;
-```
-- Enter a problem index when prompted (e.g., 1 for Hanne3).
+ Enter a problem index when prompted (e.g., 1 for Hanne3).
 - The script will:
   - Generate initial feasible points using Hit-and-Run sampling.
   - Solve using MFD.
