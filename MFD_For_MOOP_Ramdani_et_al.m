@@ -38,7 +38,7 @@ function MFD_For_MOOP_Ramdani_et_al
     clc;
 %     mpt_init; % Uncomment if MPT3 toolbox is available
   %%Input configuration parameters    
- N=350;%%% Number of feasible solutions
+ N=250;%%% Number of feasible solutions
 prec=1e-6;% Convergence precision
 sigma=0.5;% Armijo parameter
 max_iter=500;% Maximum iterations
@@ -799,5 +799,6 @@ end
 % [9]   K. Klamroth, K. Miettinen, Integrating approximation and interactive decision making in multicriteria optimization, Oper. Res. 56 (2008) 222–234. http://dx.doi.org/10.1287/opre.1070. 0425.
 
 % [10] S. Leyffer, Multiobjective Test problems, 2025. https://wiki.mcs.anl.gov/leyffer/index. php/MacMOOP.
+
 
 end
